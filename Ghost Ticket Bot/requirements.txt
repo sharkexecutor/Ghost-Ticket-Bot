@@ -1,0 +1,7 @@
+discord.py
+Flask
+psycopg2
+redis
+python-dotenv
+aiohttp
+requests
