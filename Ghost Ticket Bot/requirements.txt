@@ -1,4 +1,5 @@
 discord.py
+asyncpg
 Flask
 psycopg2-binary  # <- Use this instead of psycopg2
 redis
