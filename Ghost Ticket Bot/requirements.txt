@@ -1,7 +1,7 @@
-discord.py
+discord.py>=2.0
 asyncpg
 Flask
-psycopg2-binary  # <- Use this instead of psycopg2
+psycopg2
 redis
 python-dotenv
 aiohttp
