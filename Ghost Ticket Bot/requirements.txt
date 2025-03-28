@@ -1,6 +1,6 @@
 discord.py
 Flask
-psycopg2
+psycopg2-binary  # <- Use this instead of psycopg2
 redis
 python-dotenv
 aiohttp
