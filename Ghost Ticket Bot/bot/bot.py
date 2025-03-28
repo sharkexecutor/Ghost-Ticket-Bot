@@ -21,5 +21,6 @@ async def on_ready():
     # Load Commands
     await bot.load_extension("commands")
 
-TOKEN = os.getenv("MTM1NTA4MTE2NTQxMjg5Njg1OQ.GKpgWk.4IQNesyXMWwV4ep94TkSsQ5ergzcjk0Os37DCE")
+TOKEN = os.getenv("BOT_TOKEN")
 bot.run(TOKEN)
+
