@@ -44,4 +44,7 @@ async def close_ticket(interaction: discord.Interaction):
         await interaction.response.send_message("This is not a ticket channel!", ephemeral=True)
 
 TOKEN = os.getenv("BOT_TOKEN")
+if not TOKEN:
+    raise ValueError("BOT_TOKEN is not set! Check your environment variables.")
 bot.run(TOKEN)
+
